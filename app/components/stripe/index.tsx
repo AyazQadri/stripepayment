@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {StyleSheet, Text, View} from "react-native";
 import {CardField, CardForm, StripeContainer, StripeProvider, createToken, useStripe} from '@stripe/stripe-react-native';
-import PaymentScreen from "../payment.component.tsx/payment.component";
+import PaymentScreen from "./paymentscreen.component";
 
 const StripeCardForm = () => 
 {
